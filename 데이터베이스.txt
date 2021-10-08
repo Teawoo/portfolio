@@ -1,0 +1,39 @@
+db명 - bbs
+
+테이블명 - board
+idx (int 11 , 프라이머리키)
+name varchar(100)
+pw varchar(100)
+title varchar(100)
+content text
+date date
+hit int(11)
+lock_post int(11)
+
+테이블명 - reply
+idx int(11) 프라이머리키
+con_num int(11)
+name varchar(100)
+pw varchar(100)
+content text
+date datetime
+
+테이블명 - user
+num int(11) 프라이머리키
+id varchar(100)
+pass varchar(100)
+name char(20)
+gender char(10)
+phone char(20)
+email char(80)
+
+db명 - calendar2
+
+테이블명 - schedule
+id (int 11 프라이머리키)
+s_date (date)
+e_date (date)
+content (text)
+title (text)
+
+
